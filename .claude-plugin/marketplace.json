@@ -9,7 +9,7 @@
     {
       "name": "council",
       "source": "./",
-      "description": "Decision council: four agents argue, debate and rule on your decision, measured against your own goals."
+      "description": "Claude Council Plugin for making your most important decisions"
     }
   ]
 }
