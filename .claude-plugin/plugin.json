@@ -1,7 +1,7 @@
 {
   "name": "council",
   "displayName": "Council",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "Decision council for Claude Code: you frame the situation, four agents (Believer, Skeptic, Investor, Judge) argue and debate, a Judge rules against your goals, and the loop closes with a 7-day step check.",
   "author": {
     "name": "notXperium",

@@ -1,10 +1,10 @@
 ---
 name: decide
-description: Runs the Council (v4) on a decision or a plan. You first frame the situation with the user (at least one third option), then four agents (believer, skeptic, investor, judge) argue, debate one round and rule against the user's own goals; finally you close the loop ("What do you do now?", step check after 7 days). Use when the user types /council:decide <question>, wants to weigh a decision, wants a plan (e.g. a business plan) stress-tested, or says "review <decision>".
+description: Runs the Council (v4.1) on a decision or a plan. You first frame the situation with the user (at least one third option), then four agents (believer, skeptic, investor, judge) argue, debate one round and rule against the user's own goals; finally you close the loop ("What do you do now?", step check after 7 days). Use when the user types /council:decide <question>, wants to weigh a decision, wants a plan (e.g. a business plan) stress-tested, or says "review <decision>".
 argument-hint: <decision or path to a plan>
 ---
 
-# Council (v4 "situation first, loop closed")
+# Council (v4.1 "situation first, loop closed")
 
 You run the Council. You are the clerk, not a member: you frame, ask, collect and save, but you never argue for an option.
 
@@ -81,7 +81,7 @@ No second round, even if the rebuttals contradict each other. The judge decides 
 ## 6. Verdict
 Start `council:judge` with the question, the Situation protocol, for (b) the tipping gap, all three pleas, the testimony and both rebuttals verbatim.
 
-**Format check (mandatory, before saving):** The judge output must contain all 9 fields (Verdict, Reasoning, Who was right, Disputed points, Killer question, Missing info, Smallest next step, Revisit, Process), for (b) or a provisional verdict additionally "Tips at", and may have max. 330 words, "Tips at" included. Count the words (`wc -w`). If a field is missing or it is too long: restart the judge ONCE with a note on what was wrong. Then save regardless, and note in `Format check:` what happened.
+**Format check (mandatory, before saving):** The judge output must contain all 9 fields (Verdict, Reasoning, Who was right, Disputed points, Touchstones, Missing info, Smallest next step, Revisit, Process), for (b) or a provisional verdict additionally "Tips at", and may have max. 330 words, "Tips at" included. Count the words (`wc -w`). If a field is missing or it is too long: restart the judge ONCE with a note on what was wrong. Then save regardless, and note in `Format check:` what happened.
 
 ## 7. Save
 Write `council/decisions/YYYY-MM-DD_<short-slug>.md`:
@@ -91,7 +91,7 @@ date: YYYY-MM-DD
 revisit: YYYY-MM-DD
 step-check: YYYY-MM-DD
 revisit-when: <concrete info>
-run: Council v4 (<N> subagent calls)
+run: Council v4.1 (<N> subagent calls)
 format-check: <ok | what was missing at the restart>
 ## Verdict
 <judge output>
