@@ -1,0 +1,15 @@
+{
+  "name": "notxperium",
+  "description": "Plugins by notXperium",
+  "owner": {
+    "name": "notXperium",
+    "url": "https://github.com/notXperium"
+  },
+  "plugins": [
+    {
+      "name": "council",
+      "source": "./",
+      "description": "Decision council: four agents argue, debate and rule on your decision, measured against your own goals."
+    }
+  ]
+}
