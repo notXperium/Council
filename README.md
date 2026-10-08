@@ -16,7 +16,7 @@ A decision council for [Claude Code](https://code.claude.com). You bring a decis
    - **Investor**: money, time, opportunity cost
 4. **Witness round.** Each role asks you one question. You answer once, briefly.
 5. **Rebuttal.** Believer and Skeptic attack each other's claims and must concede at least one point.
-6. **Verdict.** The Judge decides every disputed point, answers the Skeptic's killer question and gives you the smallest next step (max. 2 hours). Fixed format, max. 330 words.
+6. **Verdict.** The Judge decides every disputed point, checks one touchstone per role (the Skeptic's killer question, the Believer's condition, the Investor's "only worth it if") and gives you the smallest next step (max. 2 hours). Fixed format, max. 330 words.
 7. **Saved** to `council/decisions/YYYY-MM-DD_<slug>.md`, with the full debate.
 8. **Loop closed.** Claude asks "What do you do now?" and records your answer. After 7 days comes the step check (did you do it, what came of it), at the revisit date the review (was the verdict right?).
 
