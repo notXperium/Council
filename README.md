@@ -63,7 +63,7 @@ The plugin is written in English. The Council answers in the language you write 
 
 ## Origin
 
-Built as part of a personal AI system and used for real decisions since September 2026. v4 added the situation step, the witness round and the closed loop after the first runs showed that most bad verdicts came from a badly posed question, not from bad arguments.
+Built as part of a personal AI system and used for real decisions since September 2026. v4 added the situation step, the witness round and the closed loop after the first runs showed that most bad verdicts came from a badly posed question, not from bad arguments. v4.1 makes the Judge check a touchstone for every role, not only the Skeptic's killer question, because verdicts tilted toward NO when only the counter-position was mandatory.
 
 ## License
 
